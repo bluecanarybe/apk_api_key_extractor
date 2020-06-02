@@ -19,7 +19,7 @@ pip3 install -r requirements.txt
 ```bash
 NOTE: make sure your .APK file is in the 'apks' folder.
 
-$ git clone --recursive https://github.com/faun88/apk_api_key_extractor.git
+$ git clone --recursive https://github.com/bluecanarybe/apk_api_key_extractor.git
 $ cd apk_api_key_extractor
 $ docker build -t apk_key_extractor:latest .
 $ docker run -it apk_key_extractor:latest
@@ -30,19 +30,13 @@ Rebuild your image when you've added other .apk's in your 'apks' folder.
 ## Installation
 
 ```bash
-$ git clone --recursive https://github.com/alessandrodd/apk_api_key_extractor.git
+$ git clone --recursive https://github.com/bluecanarybe/apk_api_key_extractor.git
 $ cd apk_api_key_extractor
 $ cp config.example.yml config.yml
 $ pip3 install -r requirements.txt
 $ python3 main.py
 ```
 
-## Test
-```bash
-$ git clone https://github.com/alessandrodd/ApiKeyTestApp.git
-$ cd apk_api_key_extractor
-$ python3 main.py --analyze-apk ../ApiKeyTestApp/apk/apikeytestapp_obfuscated.apk
-```
 
 ## Usage
 
